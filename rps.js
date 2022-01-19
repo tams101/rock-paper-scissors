@@ -11,7 +11,7 @@ function playRound(playerSelection, computerSelection){
     {return "Computer won!"}
     else {return "It's a tie"}};
 
-let playerSelection = "paper";
+let playerSelection = prompt("Please choose Rock, Paper or Scissors");
 let computerSelection = computerPlay().toLowerCase();
 
-console.log(playRound(playerSelection, computerSelection));
+console.log(playRound(playerSelection.toLowerCase, computerSelection));
